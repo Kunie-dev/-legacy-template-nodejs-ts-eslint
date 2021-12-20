@@ -1,5 +1,5 @@
 {
-  "name": "template-nodejs-ts-ws-redis",
+  "name": "demon-pos-printer",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -14,18 +14,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.31.1",
-    "@typescript-eslint/parser": "^4.31.1",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "lint-staged": "^11.1.2",
-    "prettier": "^2.4.0",
-    "tsc": "^2.0.3",
-    "typescript": "^4.4.3"
-  },
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
@@ -34,5 +22,16 @@
       "eslint --fix",
       "git add"
     ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "lint-staged": "^12.1.3",
+    "prettier": "^2.5.1",
+    "tsc": "^2.0.3",
+    "typescript": "^4.5.4"
   }
 }
